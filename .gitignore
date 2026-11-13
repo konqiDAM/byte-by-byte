@@ -1,0 +1,110 @@
+# .gitignore for the public story repo (working name: byte-by-byte)
+#
+# This repo holds PROSE, SANITISED TOOLING and AGGREGATE NUMBERS.
+# Rule of thumb: if it is game code, somebody else's upload, a credential, or a binary,
+# it does not belong here. Every block below is a thing that would either be illegal to
+# publish, unsafe to publish, or simply too big to belong in git.
+
+# ---------------------------------------------------------------- 1. the game, and anything built from it
+# Nothing shipped by Bethesda, nothing generated out of the image.
+*.exe
+*.dll
+*.asi
+*.esp
+*.esm
+*.bsa
+*.ba2
+*.sav
+*.nif
+*.kf
+*.dds
+*.wav
+*.ogg
+Fallout3.exe
+FalloutNV.exe
+*.obj
+*.lib
+*.pdb
+*.ilk
+*.map
+*.bin
+*.dat
+*.asm              # machine listings are derived from the game image
+
+# ---------------------------------------------------------------- 2. decompiled / harvested source
+# Never public: our candidates, the rival drafts the service served us, the working tree.
+claims/
+rivals/
+out/
+decompiled/
+functions/
+unit_*.cpp
+cand*.cpp
+best.cpp
+match_*.cpp
+*.orig.cpp
+
+# ---------------------------------------------------------------- 3. credentials and claim records
+# The API key, the packets (they carry signed download URLs) and the claim ledger.
+.env
+.env.*
+*.key
+*f3decomp_key*
+_claims.json
+packet.json
+pack.tar.gz
+secrets*
+credentials*
+
+# ---------------------------------------------------------------- 4. compiler, SDKs, images
+vs2005/
+wine-vs2005/
+SDK/
+*.iso
+*.msi
+
+# ---------------------------------------------------------------- 5. build, scratch, caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+*.log
+*.tmp
+tmp/
+temp/
+scratchpad/
+work*/
+variants*/
+*.tmp.*
+.cache/
+
+# ---------------------------------------------------------------- 6. editor and OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+
+# ---------------------------------------------------------------- 7. big derived data: publish aggregates, not dumps
+# The story needs numbers (yield per band, ndiff histograms, twin coverage), not the raw
+# 20 MB indexes. Commit those as small CSV/Markdown tables under data/.
+*.pkl
+*.pickle
+*.sqlite
+*.db
+*.jsonl
+twins/cache/
+_condensed.json
+_twin_by_unit.json
+_index.json
+*nul
+
+# ---------------------------------------------------------------- 8. keep these, even though a rule above is broad
+# Aggregate tables and the sanitised tools are the point of the repo.
+!data/*.csv
+!data/*.md
+!tools/**
+!chapters/**
+!lessons/**

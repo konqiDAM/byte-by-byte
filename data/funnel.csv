@@ -1,0 +1,9 @@
+stage,count
+functions in the given-up pool,1590
+functions harvested (one claim each),1482
+drafts that compiled,1204
+drafts that compiled clean at the original's exact size,249
+of those, carrying a known FNV twin,130
+drafts at <= 2 instructions from a match,59
+probe sessions spent,2856
+distinct drafts downloaded,515

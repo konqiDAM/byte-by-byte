@@ -1,0 +1,6 @@
+how_the_twin_was_found,functions
+exact: pack symbol names an FNV function,25
+similarity matcher: strings/constants/callees/link order,331
+note: qualified name asserted by a contributor (4 strict filters),4
+unit: the original file is identified (43 files),315
+any twin at all,527

@@ -1,0 +1,6 @@
+band,scored_drafts,usable,usable_pct,le2_instructions
+<=255 B,284,72,25.4,28
+256-511 B,200,58,29.0,8
+512 B-1 KB,344,66,19.2,14
+1-4 KB,345,52,15.1,9
+>4 KB,31,1,3.2,0
