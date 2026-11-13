@@ -11,6 +11,21 @@ function body, or code other people uploaded to the service we worked with.
 If you have never decompiled anything, start with
 [chapters/01-what-matching-means.md](chapters/01-what-matching-means.md).
 
+## Chapters
+
+1. **[What "matching" means](chapters/01-what-matching-means.md)** — why byte-identity is the
+   goal, what a residue is, and what actually differs when it is not zero.
+2. **[Harvesting the attempts nobody finished](chapters/02-harvesting-abandoned-attempts.md)** —
+   the pool, the claim loop, and the measured discovery that popular functions are the *worst*
+   bet.
+3. **[Finding the original source instead of guessing](chapters/03-twins.md)** — twins: exact
+   symbols, a similarity matcher, note names with four filters, and unit anchoring (2 740 packs
+   were only 184 source files).
+4. **[The walls](chapters/04-the-walls.md)** — three one-instruction differences that were
+   compiler decisions, not source shapes, and how to tell the difference before you lose the hour.
+
+The tools that produced these numbers are in [tools/](tools/README.md).
+
 ## The idea in one paragraph
 
 A decompiler can turn `Fallout3.exe` back into something that *looks* like C++, but it is a
