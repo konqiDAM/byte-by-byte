@@ -24,7 +24,9 @@ If you have never decompiled anything, start with
 4. **[The walls](chapters/04-the-walls.md)** — three one-instruction differences that were
    compiler decisions, not source shapes, and how to tell the difference before you lose the hour.
 
-The tools that produced these numbers are in [tools/](tools/README.md).
+The tools that produced these numbers are in [tools/](tools/README.md), and the worked
+examples — 458 functions that compile back to the shipped bytes — are in
+[candidates/](candidates/README.md).
 
 ## The idea in one paragraph
 
