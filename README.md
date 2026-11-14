@@ -23,10 +23,21 @@ If you have never decompiled anything, start with
    were only 184 source files).
 4. **[The walls](chapters/04-the-walls.md)** — three one-instruction differences that were
    compiler decisions, not source shapes, and how to tell the difference before you lose the hour.
+5. **[The levers, and how they were found](chapters/05-the-levers.md)** — how C++ looks when you
+   read it backwards (locals, zero-web compares, `bool` returns, float arguments, x87 trees, EH
+   prologues, vptr markers), the seven discovery methods, and the 18 levers with the measurement
+   that bought each one.
+6. **[The session audit](chapters/06-the-session-audit.md)** — what 376 sessions over 66 hours
+   actually consumed: per-model session-hours, 99M tokens, the quota windows that stopped work,
+   and the eight non-C++ failures that cost the most.
 
 The tools that produced these numbers are in [tools/](tools/README.md), and the worked
-examples — 458 functions that compile back to the shipped bytes — are in
+examples — 459 functions that compile back to the shipped bytes — are in
 [candidates/](candidates/README.md).
+
+The raw working record — the session registry, the law book, every handoff, the wall ledger and
+the analysis tools — is in [data/raw/](data/raw/RAW-AUDIT.md), with hashes and consistency checks
+in `data/raw/manifest.csv`.
 
 ## The idea in one paragraph
 

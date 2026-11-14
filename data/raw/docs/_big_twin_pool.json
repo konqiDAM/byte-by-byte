@@ -1,0 +1,50 @@
+[
+ {
+  "address": "0x00a88610",
+  "size": 1096,
+  "twin": "hkpMoppDefaultAssembler_assemble",
+  "src": "src/havok/physics/internal/collide/mopp/builder/assembler/hkpmoppdefaultassembler.cpp:3455"
+ },
+ {
+  "address": "0x009062d0",
+  "size": 1130,
+  "twin": "hkpWorld_updateCollisionFilterOnEntity",
+  "src": "src/havok/physics/dynamics/world/hkpworld.cpp:8195"
+ },
+ {
+  "address": "0x0065a920",
+  "size": 1481,
+  "twin": "InitLockInterface",
+  "src": "src/fallout/interface/menus/lockpickmenu.cpp:871"
+ },
+ {
+  "address": "0x005619e0",
+  "size": 1484,
+  "twin": "ApplyBodyTexture",
+  "src": "src/fallout_shared/tesrace.cpp:1556"
+ },
+ {
+  "address": "0x008d7020",
+  "size": 1580,
+  "twin": "Init3D",
+  "src": "src/fallout/ai/combat/explosion_o2_variant_od_noo2_variant.cpp:1060"
+ },
+ {
+  "address": "0x004f31a0",
+  "size": 1584,
+  "twin": "TESObjectREFR_TransChangeCallback",
+  "src": "src/fallout_shared/tesobjectrefr.cpp:32724"
+ },
+ {
+  "address": "0x00a6ddd0",
+  "size": 1666,
+  "twin": "ComputeValues_00de71d0",
+  "src": "src/havok/physics/utilities/visualdebugger/viewer/dynamics/constraint/drawer/hkpwheeldrawer_rtm_variant.cpp:99"
+ },
+ {
+  "address": "0x00769230",
+  "size": 1690,
+  "twin": "MobileObject_InitHavok",
+  "src": "src/fallout/ai/actor_o2_variant_od_oy_noo2_variant.cpp:4350"
+ }
+]

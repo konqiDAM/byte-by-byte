@@ -1,0 +1,299 @@
+[
+ {
+  "conf": "high",
+  "address": "0x00953a90",
+  "size": 496,
+  "give": 67,
+  "near": 66,
+  "twin": "hkVisualDebugger",
+  "src": "src/havok/common/visualize/hkvisualdebugger.cp"
+ },
+ {
+  "conf": "high",
+  "address": "0x005423d0",
+  "size": 804,
+  "give": 19,
+  "near": 12,
+  "twin": "Load",
+  "src": "src/fallout_shared/bgsbodypart.cpp:156"
+ },
+ {
+  "conf": "high",
+  "address": "0x00984d00",
+  "size": 807,
+  "give": 36,
+  "near": 19,
+  "twin": "hkpTypedBroadPhaseDispatcher_remov",
+  "src": "src/havok/physics/collide/dispatch/broadphase/"
+ },
+ {
+  "conf": "high",
+  "address": "0x00a6d890",
+  "size": 818,
+  "give": 18,
+  "near": 11,
+  "twin": "ProcessEntries_00de6d80",
+  "src": "src/havok/physics/utilities/visualdebugger/vie"
+ },
+ {
+  "conf": "high",
+  "address": "0x00449580",
+  "size": 830,
+  "give": 19,
+  "near": 13,
+  "twin": "ReadTESInfo",
+  "src": "src/fallout_shared/tesfile.cpp:1061"
+ },
+ {
+  "conf": "high",
+  "address": "0x008e5190",
+  "size": 904,
+  "give": 27,
+  "near": 20,
+  "twin": "bhkRagdollController_InitFootIK",
+  "src": "src/fallout/ai/actor_o2_nood_variant.cpp:2334"
+ },
+ {
+  "conf": "high",
+  "address": "0x00a687a0",
+  "size": 920,
+  "give": 17,
+  "near": 9,
+  "twin": "hkContactPointViewer_displayArrow",
+  "src": "src/havok/physics/utilities/visualdebugger/vie"
+ },
+ {
+  "conf": "high",
+  "address": "0x009a9660",
+  "size": 934,
+  "give": 18,
+  "near": 10,
+  "twin": "hkpWorldConstraintUtil_addConstrai",
+  "src": "src/havok/physics/dynamics/world/util/hkpworld"
+ },
+ {
+  "conf": "medium",
+  "address": "0x00a560b0",
+  "size": 161,
+  "give": 43,
+  "near": 19,
+  "twin": "CheckTransformAndProcess",
+  "src": "src/havok/physics/collide/util/welding/hkpmesh"
+ },
+ {
+  "conf": "medium",
+  "address": "0x00501250",
+  "size": 214,
+  "give": 24,
+  "near": 13,
+  "twin": "TESWorldSpace_GetKeyForWorldCoord",
+  "src": "src/fallout_shared/tesworldspace.cpp:241"
+ },
+ {
+  "conf": "medium",
+  "address": "0x00928190",
+  "size": 275,
+  "give": 24,
+  "near": 18,
+  "twin": "QueryEntityIntoBuffer",
+  "src": "src/havok/physics/dynamics/world/util/hkpworld"
+ },
+ {
+  "conf": "medium",
+  "address": "0x005693d0",
+  "size": 467,
+  "give": 11,
+  "near": 5,
+  "twin": "PlaceGridObjects",
+  "src": "src/havok/unplaced/cellmopp.cpp:404"
+ },
+ {
+  "conf": "medium",
+  "address": "0x00a74910",
+  "size": 489,
+  "give": 27,
+  "near": 15,
+  "twin": "hkpPointToPathConstraintData_setIn",
+  "src": "src/havok/physics/dynamics/constraint/bilatera"
+ },
+ {
+  "conf": "medium",
+  "address": "0x009b7950",
+  "size": 494,
+  "give": 28,
+  "near": 17,
+  "twin": "hkpBvTreeAgent_prepareCollisionPar",
+  "src": "src/havok/physics/collide/agent/compoundagent/"
+ },
+ {
+  "conf": "medium",
+  "address": "0x00924ca0",
+  "size": 503,
+  "give": 79,
+  "near": 60,
+  "twin": "IsOrthonormal",
+  "src": "src/havok/common/base/math/matrix/hkrotation.c"
+ },
+ {
+  "conf": "medium",
+  "address": "0x00643540",
+  "size": 530,
+  "give": 30,
+  "near": 23,
+  "twin": "DoIntro",
+  "src": "src/fallout/interface/menus/hackingmenu.cpp:23"
+ },
+ {
+  "conf": "medium",
+  "address": "0x00470190",
+  "size": 654,
+  "give": 23,
+  "near": 14,
+  "twin": "BGSTextureUseMap_WriteToFile",
+  "src": "src/fallout_shared/bgstextureusemap.cpp:433"
+ },
+ {
+  "conf": "medium",
+  "address": "0x005efdd0",
+  "size": 657,
+  "give": 11,
+  "near": 6,
+  "twin": "ProcessPathNode",
+  "src": "src/fallout_shared/pathfinding/pathbuilder.cpp"
+ },
+ {
+  "conf": "medium",
+  "address": "0x005f89d0",
+  "size": 843,
+  "give": 23,
+  "near": 9,
+  "twin": "WriteToStream",
+  "src": "src/fallout_shared/tesnpc.cpp:2452"
+ },
+ {
+  "conf": "medium",
+  "address": "0x009baf20",
+  "size": 878,
+  "give": 13,
+  "near": 4,
+  "twin": "hkpHeightFieldAgent_staticGetPenet",
+  "src": "src/havok/physics/collide/agent/heightfieldage"
+ },
+ {
+  "conf": "medium",
+  "address": "0x00575a30",
+  "size": 920,
+  "give": 25,
+  "near": 18,
+  "twin": "UpdateAtmosphere",
+  "src": "src/fallout_shared/sky/atmosphere.cpp:275"
+ },
+ {
+  "conf": "medium",
+  "address": "0x005e91d0",
+  "size": 928,
+  "give": 22,
+  "near": 16,
+  "twin": "UpdateTransition",
+  "src": "src/fallout/ai/actor.cpp:50293"
+ },
+ {
+  "conf": "medium",
+  "address": "0x009bf5c0",
+  "size": 976,
+  "give": 18,
+  "near": 6,
+  "twin": "hkpMultiRayConvexAgent_getClosestP",
+  "src": "src/havok/physics/collide/agent/miscagent/mult"
+ },
+ {
+  "conf": "medium",
+  "address": "0x0053d570",
+  "size": 1096,
+  "give": 14,
+  "near": 9,
+  "twin": "Cmd_AttachAshPile_Execute",
+  "src": "src/fallout_shared/tesscriptfunctions_o2_varia"
+ },
+ {
+  "conf": "medium",
+  "address": "0x00a3ab70",
+  "size": 1099,
+  "give": 11,
+  "near": 8,
+  "twin": "Object_ProcessEntries_00daf8e0",
+  "src": "src/havok/physics/collide/agent/util/linearcas"
+ },
+ {
+  "conf": "medium",
+  "address": "0x007e7090",
+  "size": 1116,
+  "give": 20,
+  "near": 9,
+  "twin": "UpdateAvoidance",
+  "src": "src/fallout/ai/movement/detailedactorpathhandl"
+ },
+ {
+  "conf": "medium",
+  "address": "0x008ebc30",
+  "size": 1388,
+  "give": 21,
+  "near": 15,
+  "twin": "bhkCharacterListener_characterInte",
+  "src": "src/fallout/ai/playercharacter_o2_variant_rtm_"
+ },
+ {
+  "conf": "medium",
+  "address": "0x004f7b70",
+  "size": 1487,
+  "give": 16,
+  "near": 11,
+  "twin": "TESObjectREFR_InitHavokForCollisio",
+  "src": "src/fallout_shared/tesobjectrefr.cpp:39671"
+ },
+ {
+  "conf": "exact",
+  "address": "0x0090b5b0",
+  "size": 260,
+  "give": 22,
+  "near": 13,
+  "twin": "FUN_00c9cce0",
+  "src": "src/havok/physics/dynamics/entity/hkpentity.cp"
+ },
+ {
+  "conf": "exact",
+  "address": "0x00a4d720",
+  "size": 352,
+  "give": 20,
+  "near": 27,
+  "twin": "DispatchInstruction",
+  "src": "src/havok/physics/utilities/dynamics/saveconta"
+ },
+ {
+  "conf": "exact",
+  "address": "0x00906090",
+  "size": 564,
+  "give": 29,
+  "near": 20,
+  "twin": "UpdatePhantom",
+  "src": "src/havok/physics/dynamics/world/hkpworld.cpp:"
+ },
+ {
+  "conf": "exact",
+  "address": "0x00af10f0",
+  "size": 884,
+  "give": 16,
+  "near": 14,
+  "twin": "FUN_00b6dd80",
+  "src": "src/bsshader/bstexturemanager_o2_variant.cpp:3"
+ },
+ {
+  "conf": "exact",
+  "address": "0x00af1dd0",
+  "size": 937,
+  "give": 40,
+  "near": 21,
+  "twin": "~FUN_00b6f0b0",
+  "src": "src/bsshader/distantlodshaderproperty.cpp:632"
+ }
+]
